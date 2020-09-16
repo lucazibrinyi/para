@@ -1,0 +1,53 @@
+bemutatkozás
+git config --local user.name "keresztnev Vezeteknev"
+git config --local user.email "joska@gmail.com"
+
+global
+git config  --list --show-origin
+
+
+localnál git init kell
+
+mindig local-t használjunk!
+.--local
+
+mkdir includes
+mkdir templates
+mkdir draft
+mkdir database
+touch index.php
+ 
+ dir
+ 
+ ls -nél kék a könyvtár
+ 
+ ls -l
+ 
+ php-t vagy  ?> *-lel lezárom vagy nem mi itt nem használjuk a lezárást*
+ 
+ PHP webszervere
+ 
+ php -S localhost:8000 -t .
+ 
+ 
+ export PS1="$ " *így csak a $ jel jelenik meg*
+
+
+fájl >  új lap
+
+export PS1="$"
+git commit -m
+git status
+git log
+
+git reset --hard  /*visszaállás az utolsó commit állapotára*/
+
+azonosító felírása (utolsó jó)
+5a56
+
+git reset --hard 5a56
+
+github-ra  regisztráció
+git remote add origin https://github.com/zvmluci/para.git
+git branch -M master
+git push -u origin master

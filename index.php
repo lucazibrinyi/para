@@ -8,4 +8,4 @@ echo "Egressy";
 //egy soros
 /*több
  soros
- * /
+ */
